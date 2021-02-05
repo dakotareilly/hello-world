@@ -242,3 +242,27 @@ footer {
   padding: 10px;
   font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 450px) {
+  .perks .container {
+    width: 100%;
+  }
+  
+  .perk {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .image {
+    height: 250px;
+  }
+
+  .founders .container {
+  width: 95%;
+  padding: 5px;
+  }
+
+   .founder {
+    margin: 5px;
+  }
+}
